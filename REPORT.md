@@ -49,13 +49,13 @@ Výsledkem je model, který má celkovou úspěnost ~76%.
 
 Z classification reportu můžeme vidět, že detekce je v určitých případech poměrně úspěšná a u určitých méňe. To je dáno tím, že je vzorek rozdělen na trénovací a testovací data, nemá tudíž dostatečné množství záznamů s tímto 'statusem'. Nicméně je zde vidět, že class 3 (Paid) a class 4 (Cancelled) mají celkem dobrý percentil.
 
-| Class | Precision | Recall | F1-Score | Support |\
-|-------|-----------|--------|----------|---------|\
-|   0   |   0.29    |  0.21  |   0.24   |    24   |\
-|   1   |   0.50    |  0.11  |   0.18   |    55   |\
-|   3   |   0.80    |  0.94  |   0.86   |   285   |\
-|   4   |   0.82    |  0.88  |   0.85   |    26   |\
-|   5   |   0.00    |  0.00  |   0.00   |     2   |\
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+|   0   |   0.29    |  0.21  |   0.24   |    24   |
+|   1   |   0.50    |  0.11  |   0.18   |    55   |
+|   3   |   0.80    |  0.94  |   0.86   |   285   |
+|   4   |   0.82    |  0.88  |   0.85   |    26   |
+|   5   |   0.00    |  0.00  |   0.00   |     2   |
 |   6   |   0.00    |  0.00  |   0.00   |     4   |
 
 ##### Důležitost proměnných:
@@ -76,6 +76,7 @@ past_participant............2.6878%
 
 Dataset obsahuje i data z roku 2024, tedy aktuální data. Je zde vidět, že letos je větší zájem o turnus D.
 
+---
 ### Comparison
 
 Pro porovnání je zde práce, kde se autor snaží vyhodnotit zda-li student bude schopen dokončit titul na základě určitých proměnných. 
